@@ -1,0 +1,41 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning"],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What can I assist you with?"
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "where is my order",
+        "track my order",
+        "order status"
+      ],
+      "responses": [
+        "You can track your order using the tracking link sent to your email."
+      ]
+    },
+    {
+      "tag": "refund",
+      "patterns": [
+        "refund",
+        "return product",
+        "money back"
+      ],
+      "responses": [
+        "Refunds are processed within 5-7 business days after approval."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you"],
+      "responses": [
+        "Thank you for contacting us. Have a great day!"
+      ]
+    }
+  ]
+}
